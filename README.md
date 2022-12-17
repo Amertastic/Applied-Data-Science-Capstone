@@ -1,7 +1,7 @@
 # IBM Applied-Data-Science-Capstone
 Applied Data Science Capstone For The IBM Data Science Professional Certificate
 
-![](https://camo.githubusercontent.com/9141210ace06c3858dcd22dbb06deefbe8a5f65c973b2248b91a04f8e1081bf9/68747470733a2f2f63662d636f75727365732d646174612e73332e75732e636c6f75642d6f626a6563742d73746f726167652e617070646f6d61696e2e636c6f75642f49424d446576656c6f706572536b696c6c734e6574776f726b2d445330373031454e2d536b696c6c734e6574776f726b2f6170692f496d616765732f6c616e64696e675f312e676966)
+![IBM Applied Data Science Capstone](https://images.credly.com/size/340x340/images/798cd889-5828-4b7b-ace4-81ecb79201de/image.png)
 
 # Overview
 
@@ -12,6 +12,8 @@ In this course you will assume the role of a Data Scientist working for a startu
 You will be tasked with predicting if the first stage of the SpaceX Falcon 9 rocket will land successfully. With the help of your Data Science findings and models, the competing startup you have been hired by can make more informed bids against SpaceX for a rocket launch.  
 
 In this course, there will not be much new learning, instead you’ll focus on hands-on work to demonstrate and apply what you have learnt in previous courses.  By successfully completing this Capstone you will have added a project to your data science and machine learning portfolio to showcase to employers.
+
+![](https://camo.githubusercontent.com/9141210ace06c3858dcd22dbb06deefbe8a5f65c973b2248b91a04f8e1081bf9/68747470733a2f2f63662d636f75727365732d646174612e73332e75732e636c6f75642d6f626a6563742d73746f726167652e617070646f6d61696e2e636c6f75642f49424d446576656c6f706572536b696c6c734e6574776f726b2d445330373031454e2d536b696c6c734e6574776f726b2f6170692f496d616765732f6c616e64696e675f312e676966)
 
 # Project Scenario 
 
