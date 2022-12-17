@@ -2,11 +2,14 @@
 Applied Data Science Capstone For The IBM Data Science Professional Certificate
 
 
--><center><img src="https://images.credly.com/size/340x340/images/798cd889-5828-4b7b-ace4-81ecb79201de/image.png" width="200" height="200"></center><-
 
 
+<p align="center">
+  <img width="600" height="200" src="https://images.credly.com/size/340x340/images/798cd889-5828-4b7b-ace4-81ecb79201de/image.png">
+</p>
 
 <!---
+<img src="https://images.credly.com/size/340x340/images/798cd889-5828-4b7b-ace4-81ecb79201de/image.png" width="200" height="200">
 #![IBM Applied Data Science Capstone](https://images.credly.com/size/340x340/images/798cd889-5828-4b7b-ace4-81ecb79201de/image.png)
 --->
 
