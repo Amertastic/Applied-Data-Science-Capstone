@@ -15,13 +15,13 @@ Applied Data Science Capstone For The IBM Data Science Professional Certificate 
 
 # Overview
 
-This is the final course in the IBM Data Science Professional Certificate as well as the Applied Data Science with Python Specialization. This capstone project course will give you the chance to practice the work that data scientists do in real life when working with datasets.  
+For my Capstone project to complete the IBM Data Science Professional Certificate, I took on the role of a Data Scientist at a startup aiming to compete with SpaceX. We wanted to determine if the first stage of the Falcon 9 rocket would land successfully in order to make more informed bids for rocket launches. 
 
-In this course you will assume the role of a Data Scientist working for a startup intending to compete with SpaceX, and in the process follow the Data Science methodology involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting your results to stakeholders.  
+To achieve this, I followed the Data Science methodology. I collected and wrangled data on previous Falcon 9 launches. I then conducted exploratory data analysis and data visualization to gain key insights from the data. Next, I developed machine learning models using SVM, Classification Trees, K Nearest Neighbors and Logistic Regression to predict if the rocket landing would be successful. I split the data into training and test sets, hyperparameter tuned the models, and evaluated them to determine the best performer. 
 
-You will be tasked with predicting if the first stage of the SpaceX Falcon 9 rocket will land successfully. With the help of your Data Science findings and models, the competing startup you have been hired by can make more informed bids against SpaceX for a rocket launch.  
+My final model using SVM (Support Vector Machines) achieved an accuracy of 84.82% on the test data. I was able to demonstrate key data science and machine learning skills that would be valuable for any employer. This Capstone project is a great addition to my portfolio showing real-world application of data science to a challenging problem.
 
-In this course, there will not be much new learning, instead you’ll focus on hands-on work to demonstrate and apply what you have learnt in previous courses.  By successfully completing this Capstone you will have added a project to your data science and machine learning portfolio to showcase to employers.
+Through this project, I reinforced my learning from the courses in the IBM Data Science Professional Certificate and Specialization. I gained hands-on experience with the end-to-end workflow of a data science project which will be invaluable for my career as a data scientist.
 
 
 
