@@ -5,7 +5,7 @@ Applied Data Science Capstone For The IBM Data Science Professional Certificate 
 
 
 <p align="center">
-  <img width="200" height="200" src="https://github.com/Amertastic/Applied-Data-Science-Capstone/blob/main/Applied%20Data%20Science%20Capstone.png?raw=true">
+  <img width="200" height="200" src="https://github.com/Amertastic/Applied-Data-Science-Capstone/blob/main/Images/Applied%20Data%20Science%20Capstone.png?raw=true">
 </p>
 
 <!---
