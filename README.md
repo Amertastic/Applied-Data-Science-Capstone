@@ -4,14 +4,48 @@ Applied Data Science Capstone For The IBM Data Science Professional Certificate 
 
 
 
+
 <p align="center">
-  <img width="200" height="200" src="https://github.com/Amertastic/Applied-Data-Science-Capstone/blob/main/Images/Applied%20Data%20Science%20Capstone.png?raw=true">
+  <img width="150" height="150" src="https://github.com/Amertastic/Applied-Data-Science-Capstone/blob/main/Images/Applied%20Data%20Science%20Capstone.png?raw=true">
 </p>
 
 <!---
 <img src="https://images.credly.com/size/340x340/images/798cd889-5828-4b7b-ace4-81ecb79201de/image.png" width="200" height="200">
 #![IBM Applied Data Science Capstone](https://images.credly.com/size/340x340/images/798cd889-5828-4b7b-ace4-81ecb79201de/image.png)
 --->
+
+## Table of Contents
+---
+
+
+1) Navigating the Git Hub Repository
+2) Executive Summary
+3) Technologies and Libraries Used
+4) Data Cleaning Data Gathering and Feature Engineering
+5) Modelling
+6) Evaluation
+
+### Navigating the GitHub Repository
+
+- Jupyter Notebooks: The main Jupyter Notebooks can be found in the Notebooks folder.
+  - 01 Data Collection API.ipynb
+  - 02 Webscraping.ipynb
+  - 03 Data wrangling.ipynb
+  - 04 EDA with SQL.ipynb
+  - 05 EDA Using Pandas and Matplotlib.ipynb
+  - 06 Interactive Visual Analytics with Folium.ipynb
+  - 07 SpaceX Machine Learning Prediction.ipynb
+- Data: The relevant CSV files can be found in the Data Folder.
+  - dataset_part_1.csv
+  - dataset_part_2.csv
+  - dataset_part_3.csv
+  - spacex_web_scraped.csv
+- Presentation: Folder for presentation of the project.
+  - Data Science Capstone Presentation.pptx.pdf
+- README.md
+
+
+
 
 # Overview
 
