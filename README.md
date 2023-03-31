@@ -15,8 +15,6 @@ Applied Data Science Capstone For The IBM Data Science Professional Certificate 
 --->
 
 ## Table of Contents
----
-
 
 1) Navigating the Git Hub Repository
 2) Executive Summary
@@ -44,6 +42,9 @@ Applied Data Science Capstone For The IBM Data Science Professional Certificate 
   - Data Science Capstone Presentation.pptx.pdf
 - README.md
 
+### Executive Summary
+
+### Technologies and Libraries Used
 
 
 
