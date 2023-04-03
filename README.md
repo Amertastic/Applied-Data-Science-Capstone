@@ -44,6 +44,17 @@ Applied Data Science Capstone For The IBM Data Science Professional Certificate 
 
 ### Executive Summary
 
+This data science research project aimed to build a machine learning pipeline to predict the success of the first stage landing of SpaceX Falcon 9 rockets. The project involved several stages, including data collection through web scraping and utilizing SpaceX API, data preprocessing, exploratory data analysis using various tools such as Folium, Dash, and SQL, model building using four different algorithms, and model evaluation using train-test split and grid search techniques.
+
+The analysis of the data showed that the KSC LC-39A launch site had the highest number of successful launches, and the success rate of launches increased significantly between 2013-2014 and 2015-2017. Moreover, the success rate was higher for orbit types such as ES-L1, GEO, HEO, and SSO. Payload mass and launch site also had an impact on the success rate of the launches.
+
+The models built using logistic regression, support vector machines, decision tree classifier, and k-nearest neighbors had an R^2 error or .score() value of 0.83333. The decision tree model had the highest accuracy score of 0.84214, and it was identified as the best model among the four algorithms analyzed. However, all models had issues with false positives.
+
+Overall, this project suggests that SpaceX's success rate is improving with each launch, and they are continuously learning from their mistakes to improve their rockets. The study also highlights the importance of data analysis in predicting the success of space missions. Further analysis and more data may help improve the accuracy of the predictive models and overcome the false positives issue.
+
+In conclusion, this data science research project provides valuable insights and recommendations for SpaceX and the space industry as a whole to improve the success rate of space missions.
+
+
 ### Technologies and Libraries Used
 
 
