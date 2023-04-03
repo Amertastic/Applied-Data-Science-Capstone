@@ -57,6 +57,16 @@ In conclusion, this data science research project provides valuable insights and
 
 ### Technologies and Libraries Used
 
+ - Python
+ - Numpy
+ - Pandas
+ - Matplotlib
+ - Seaborn
+ - Scikit-learn
+ - Folium 
+ - Plotly Dash
+ - SpaceX REST API
+
 
 
 # Overview
