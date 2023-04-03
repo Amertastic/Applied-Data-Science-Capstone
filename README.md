@@ -69,16 +69,9 @@ In conclusion, this data science research project provides valuable insights and
 
 
 
-# Overview
+### Data Collection Overview
 
-For my Capstone project to complete the IBM Data Science Professional Certificate, I took on the role of a Data Scientist at a startup aiming to compete with SpaceX. We wanted to determine if the first stage of the Falcon 9 rocket would land successfully in order to make more informed bids for rocket launches. 
-
-To achieve this, I followed the Data Science methodology. I collected and wrangled data on previous Falcon 9 launches. I then conducted exploratory data analysis and data visualization to gain key insights from the data. Next, I developed machine learning models using SVM, Classification Trees, K Nearest Neighbors and Logistic Regression to predict if the rocket landing would be successful. I split the data into training and test sets, hyperparameter tuned the models, and evaluated them to determine the best performer. 
-
-My final model using SVM (Support Vector Machines) achieved an accuracy of 84.82% on the test data. I was able to demonstrate key data science and machine learning skills that would be valuable for any employer. This Capstone project is a great addition to my portfolio showing real-world application of data science to a challenging problem.
-
-Through this project, I reinforced my learning from the courses in the IBM Data Science Professional Certificate and Specialization. I gained hands-on experience with the end-to-end workflow of a data science project which will be invaluable for my career as a data scientist.
-
+The Data Collection Overview for this project involved gathering SpaceX launch data using the SpaceX REST API. Specifically, the endpoint api.spacexdata.com/v4/launches/past was used to obtain past launch data. The requests library was used to perform a get request and the resulting response was in the form of a JSON. The json_normalize function was used to convert this structured data into a flat table, which was then converted into a Pandas dataframe for further visualization and analysis. Additionally, Python's BeautifulSoup package was used to web scrape HTML tables containing Falcon 9 launch records, which were also converted into Pandas dataframes. Data wrangling techniques such as filtering out Falcon 1 launches, dealing with null values, and gathering specific data for each ID number were applied to ensure the dataset was clean and meaningful. The resulting dataset was used for analysis and prediction.
 
 
 <p align="center">
