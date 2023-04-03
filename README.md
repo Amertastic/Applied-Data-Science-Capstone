@@ -91,7 +91,7 @@ During the Data Wrangling process, the gathered data was transformed into a clea
 The machine learning model selection for this Data Science research project involved evaluating several algorithms, including logistic regression, support vector machines, decision tree classifier, and K-nearest neighbors. The decision tree classification model had the highest accuracy, with a best_score_ value of 0.84214, and was identified as the best model for predicting the success of the Falcon 9's first stage landing. False positives were noted as a significant problem with the model, which could have been resolved by analyzing more data or using other machine learning methods. Overall, the machine learning pipeline was successful in predicting the success of the Falcon 9's first stage landing, and the insights drawn from the EDA provided valuable information about the launch sites, payload mass, orbit types, and success rates that could benefit SpaceX in improving their rockets and ensuring successful launches in the future.
 
 <p align="center">
-  <img width="350" height="350" src="https://github.com/Amertastic/Applied-Data-Science-Capstone/blob/main/Images/Classification%20Accuracy.png">
+  <img width="609" height="425" src="https://github.com/Amertastic/Applied-Data-Science-Capstone/blob/main/Images/Classification%20Accuracy.png">
 </p>
 
 
