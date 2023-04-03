@@ -71,8 +71,12 @@ In conclusion, this data science research project provides valuable insights and
 
 ### Data Collection Overview
 
-The Data Collection Overview for this project involved gathering SpaceX launch data using the SpaceX REST API. Specifically, the endpoint api.spacexdata.com/v4/launches/past was used to obtain past launch data. The requests library was used to perform a get request and the resulting response was in the form of a JSON. The json_normalize function was used to convert this structured data into a flat table, which was then converted into a Pandas dataframe for further visualization and analysis. Additionally, Python's BeautifulSoup package was used to web scrape HTML tables containing Falcon 9 launch records, which were also converted into Pandas dataframes. Data wrangling techniques such as filtering out Falcon 1 launches, dealing with null values, and gathering specific data for each ID number were applied to ensure the dataset was clean and meaningful. The resulting dataset was used for analysis and prediction.
+Overview for this project involved obtaining SpaceX launch data using the SpaceX REST API. The API provided information about past launches, including rocket used, payload delivered, launch and landing specifications, and landing outcomes. A get request was made using the requests library to obtain the launch data, which was then converted into a JSON format using the .json() method. The JSON data was then normalized using the json_normalize function to convert it into a flat table format, suitable for further analysis. In addition to the API, the Python BeautifulSoup package was used for web scraping related Wiki pages to gather Falcon 9 launch records, which were then parsed and converted into a Pandas data frame for analysis.
 
+
+### Data Wrangling 
+
+During the Data Wrangling process, the gathered data was transformed into a clean dataset that provided meaningful data on the situation being addressed. This involved addressing issues such as null values and filtering out Falcon 1 launches. Identification numbers were also converted into actual data by using the API to target specific endpoints to gather data for each ID number. Null values in the PayloadMass column were replaced with the mean, while the LandingPad column with null values was left as is and dealt with later using one hot encoding. The end result was a clean and structured dataset suitable for further analysis and modeling.
 
 <p align="center">
   <img src="https://camo.githubusercontent.com/9141210ace06c3858dcd22dbb06deefbe8a5f65c973b2248b91a04f8e1081bf9/68747470733a2f2f63662d636f75727365732d646174612e73332e75732e636c6f75642d6f626a6563742d73746f726167652e617070646f6d61696e2e636c6f75642f49424d446576656c6f706572536b696c6c734e6574776f726b2d445330373031454e2d536b696c6c734e6574776f726b2f6170692f496d616765732f6c616e64696e675f312e676966">
@@ -82,17 +86,7 @@ The Data Collection Overview for this project involved gathering SpaceX launch d
 ![](https://camo.githubusercontent.com/9141210ace06c3858dcd22dbb06deefbe8a5f65c973b2248b91a04f8e1081bf9/68747470733a2f2f63662d636f75727365732d646174612e73332e75732e636c6f75642d6f626a6563742d73746f726167652e617070646f6d61696e2e636c6f75642f49424d446576656c6f706572536b696c6c734e6574776f726b2d445330373031454e2d536b696c6c734e6574776f726b2f6170692f496d616765732f6c616e64696e675f312e676966)
 --->
 
-# Project Scenario 
-
-I worked as a data scientist for Space Y, a new rocket company aiming to compete with SpaceX. My job was to determine the cost of each SpaceX Falcon 9 launch to help Space Y price their rockets competitively. 
-
-To do this, I first gathered information about SpaceX and their Falcon 9 rockets. I created data dashboards for my team summarizing details like rocket specifications, launch sites, past missions, and costs. We analyzed the data to determine the major factors impacting the price of a launch. The biggest factor was whether SpaceX chose to reuse the Falcon 9 first stage, which accounts for most of the rocket’s cost. Reusing the first stage could save over $100 million per launch. 
-
-I then trained a machine learning model to predict if SpaceX would reuse the first stage for a given launch based on features like orbit, payload weight, and mission objectives. My model achieved an accuracy of approximately 85% on test data, giving us a good estimate of the launch price. 
-
-By determining the likelihood of first stage reusability and other price drivers, I helped Space Y significantly improve their pricing strategy. My work analyzing SpaceX data and building machine learning models demonstrated my skills in data science and helped Space Y compete in the rapidly growing commercial space industry.
-
-This project allowed me to strengthen my skills in data visualization, machine learning, and solving complex real-world problems. 
+### Machine Learning Model Selection
 
 
 ### Future Work
