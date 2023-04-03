@@ -100,3 +100,8 @@ I then trained a machine learning model to predict if SpaceX would reuse the fir
 By determining the likelihood of first stage reusability and other price drivers, I helped Space Y significantly improve their pricing strategy. My work analyzing SpaceX data and building machine learning models demonstrated my skills in data science and helped Space Y compete in the rapidly growing commercial space industry.
 
 This project allowed me to strengthen my skills in data visualization, machine learning, and solving complex real-world problems. 
+
+
+### Future Work
+
+Future work could involve collecting more data to improve the model's accuracy and reduce the false positives. It could also be beneficial to explore other machine learning algorithms, such as ensemble methods, to see if they perform better than the current models. Additionally, the model could be updated to include more recent launch data to see if there have been any changes in trends or patterns. Furthermore, it could be interesting to investigate the impact of external factors, such as weather conditions or technical issues, on the success of Falcon 9's first stage landing.
