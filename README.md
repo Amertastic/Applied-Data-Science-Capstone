@@ -44,15 +44,16 @@ Applied Data Science Capstone For The IBM Data Science Professional Certificate 
 
 ### Executive Summary
 
-This data science research project aimed to build a machine learning pipeline to predict the success of the first stage landing of SpaceX Falcon 9 rockets. The project involved several stages, including data collection through web scraping and utilizing SpaceX API, data preprocessing, exploratory data analysis using various tools such as Folium, Dash, and SQL, model building using four different algorithms, and model evaluation using train-test split and grid search techniques.
+This Data Science research project aimed to build a machine learning pipeline to predict if the first stage of the Falcon 9 lands successfully. The project involved several stages including data requirements, data collection, data wrangling, exploratory data analysis, predictive model building, and evaluation.
 
-The analysis of the data showed that the KSC LC-39A launch site had the highest number of successful launches, and the success rate of launches increased significantly between 2013-2014 and 2015-2017. Moreover, the success rate was higher for orbit types such as ES-L1, GEO, HEO, and SSO. Payload mass and launch site also had an impact on the success rate of the launches.
+The data was obtained through web scraping and utilizing SpaceX API, and the preprocessing involved standardizing and organizing the landing outcomes as good and bad outcomes (1 and 0). The exploratory data analysis involved querying the data using SQL and building interactive maps with Folium and Dashboards with Dash. The predictive model was built using logistic regression, support vector machines, decision tree classifier, and K-nearest neighbors.
 
-The models built using logistic regression, support vector machines, decision tree classifier, and k-nearest neighbors had an R^2 error or .score() value of 0.83333. The decision tree model had the highest accuracy score of 0.84214, and it was identified as the best model among the four algorithms analyzed. However, all models had issues with false positives.
+The major insights drawn from the EDA showed that there were more launches from the CCAFS SLC 40 site than the other two sites. The number of successful landings has increased since the first use of the launch site. There appears to be a higher success rate for landings when the payload mass is above 8000 kg, and most of the launches under 8000 kg took place at the CCAFS SLC 40 launch site. The orbit types ES-L1, GEO, HEO, and SSO have the highest success rate, and a large number of recent launches have been VLEO. The highest classification accuracy belongs to the decision tree classification model, which had a best_score_ value of 0.84214.
 
-Overall, this project suggests that SpaceX's success rate is improving with each launch, and they are continuously learning from their mistakes to improve their rockets. The study also highlights the importance of data analysis in predicting the success of space missions. Further analysis and more data may help improve the accuracy of the predictive models and overcome the false positives issue.
+The project identified false positives as a major problem with the model, which could potentially be fixed by analyzing more data or using other machine learning methods. The best model with the highest accuracy was the decision tree classification model. The research project also found that the more launches SpaceX carries out, the higher their success rate, indicating that they are continuously learning and improving their rockets.
 
-In conclusion, this data science research project provides valuable insights and recommendations for SpaceX and the space industry as a whole to improve the success rate of space missions.
+Overall, this Data Science research project successfully built a predictive model for predicting the success of the Falcon 9's first stage landing. The insights drawn from the EDA provided valuable information about the launch sites, payload mass, orbit types, and success rates. The findings could be beneficial to SpaceX in improving their rockets and ensuring successful launches in the future.
+
 
 
 ### Technologies and Libraries Used
@@ -93,6 +94,8 @@ The machine learning model selection for this Data Science research project invo
 <p align="center">
   <img width="609" height="425" src="https://github.com/Amertastic/Applied-Data-Science-Capstone/blob/main/Images/Classification%20Accuracy.png">
 </p>
+
+
 
 
 ### Future Work
