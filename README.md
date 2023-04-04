@@ -96,7 +96,9 @@ The machine learning model selection for this Data Science research project invo
 </p>
 
 
+### Evaluation 
 
+The performance of the predictive models was evaluated using several metrics, including accuracy, precision, recall, and F1-score. The evaluation results showed that the decision tree classifier model had the highest classification accuracy, with a best_score_ value of 0.84214. The logistic regression and support vector machine models had lower accuracy scores, while the K-nearest neighbors model had the lowest accuracy score. The precision and recall values varied for each model, with the decision tree classifier having the highest precision score of 0.8344 and the highest recall score of 0.8548. The F1-scores were consistent with the precision and recall values, with the decision tree classifier having the highest score of 0.8445. The evaluation also identified false positives as a major problem with the models. This could potentially be fixed by analyzing more data or using other machine learning methods. Overall, the decision tree classifier model was selected as the best model for predicting the success of the Falcon 9's first stage landing based on its high accuracy and F1-score values.
 
 ### Future Work
 
